@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3b1e538a-42a1-4d2d-8613-26ce4c93e617" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../demo/testdemo/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/case.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/case.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/calculator.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -21,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcase/case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+            <state relative-caret-position="-6">
+              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -33,10 +37,24 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testcase/pytest.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conftest.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/add.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
+            <state relative-caret-position="320">
               <caret line="31" column="11" selection-start-line="28" selection-end-line="31" selection-end-column="11" />
             </state>
           </provider>
@@ -46,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/data/div.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -75,14 +93,10 @@
         <option value="$PROJECT_DIR$/python/calculator.py" />
         <option value="$PROJECT_DIR$/data/div.yaml" />
         <option value="$PROJECT_DIR$/testcase/1.py" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="$PROJECT_DIR$/testcase/case.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/testcase/pytest.ini" />
       </list>
     </option>
   </component>
@@ -96,7 +110,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,9 +136,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -133,6 +148,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testcase" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
@@ -181,29 +197,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589029968853</updated>
-      <workItem from="1589029973775" duration="10990000" />
+      <workItem from="1589029973775" duration="11755000" />
+      <workItem from="1589207460196" duration="7000" />
+      <workItem from="1589207528276" duration="1856000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_case_TestCalc_test_div - 2020.05.11 at 16h 33m 54s.xml">
-      <configuration name="pytest for case.TestCalc.test_div" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_case_TestCalc_test_div - 2020.05.11 at 16h 35m 25s.xml">
-      <configuration name="pytest for case.TestCalc.test_div" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_case_TestCalc_test_div - 2020.05.11 at 18h 48m 34s.xml">
-      <configuration name="pytest for case.TestCalc.test_div" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_case_py - 2020.05.11 at 18h 59m 10s.xml">
-      <configuration name="pytest in case.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_case_TestCalc_test_div - 2020.05.11 at 19h 04m 32s.xml">
-      <configuration name="pytest for case.TestCalc.test_div" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_case_py - 2020.05.11 at 19h 06m 19s.xml">
-      <configuration name="pytest in case.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_case_TestCalc_test_div - 2020.05.11 at 19h 06m 23s.xml">
       <configuration name="pytest for case.TestCalc.test_div" configurationId="tests" />
     </history-entry>
@@ -216,34 +216,53 @@
     <history-entry file="pytest_in_case_py - 2020.05.11 at 19h 07m 25s.xml">
       <configuration name="pytest in case.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_case_py - 2020.05.12 at 18h 36m 31s.xml">
+      <configuration name="pytest in case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_case_py - 2020.05.12 at 18h 41m 15s.xml">
+      <configuration name="pytest in case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_case_py - 2020.05.12 at 18h 54m 36s.xml">
+      <configuration name="pytest in case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_case_py - 2020.05.12 at 18h 54m 58s.xml">
+      <configuration name="pytest in case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_case_py - 2020.05.12 at 18h 55m 20s.xml">
+      <configuration name="pytest in case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_case_py - 2020.05.12 at 18h 56m 25s.xml">
+      <configuration name="pytest in case.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10990000" />
+    <option name="totallyTimeSpent" value="13618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4698795" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4698795" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32891566" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +272,7 @@
     <SUITE FILE_PATH="coverage/practice$pytest_for_case_TestCalc_test_add.coverage" NAME="pytest for case.TestCalc.test_add Coverage Results" MODIFIED="1589180976231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_temporary_testing.coverage" NAME="pytest for temporary.testing Coverage Results" MODIFIED="1589179419758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/practice$case.coverage" NAME="case Coverage Results" MODIFIED="1589180011038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/practice$pytest_in_case_py.coverage" NAME="pytest in case.py Coverage Results" MODIFIED="1589195244249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/practice$pytest_in_case_py.coverage" NAME="pytest in case.py Coverage Results" MODIFIED="1589280984924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_case_TestCalc_test_div.coverage" NAME="pytest for case.TestCalc.test_div Coverage Results" MODIFIED="1589195182961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/practice$1.coverage" NAME="1 Coverage Results" MODIFIED="1589195040291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
   </component>
@@ -265,44 +284,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/temporary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="98" selection-start-line="4" selection-start-column="98" selection-end-line="4" selection-end-column="98" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add1.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/add.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="31" column="11" selection-start-line="28" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/temporary.py" />
+    <entry file="file://$PROJECT_DIR$/add1.yaml" />
+    <entry file="file://$PROJECT_DIR$/testcase/1.py" />
     <entry file="file://$PROJECT_DIR$/python/calculator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -310,13 +294,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/div.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/add.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="31" column="11" selection-start-line="28" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        <state relative-caret-position="-6">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>

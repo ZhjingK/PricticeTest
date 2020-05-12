@@ -31,8 +31,9 @@ class TestCalc:
     #     ({1, 2}, 9, "no result"),
     #     ([1, 2], 0, "no result"),
     #     ("a", "b", "a+b")])
+    @pytest.mark.add
     @pytest.mark.parametrize("a,b,result", yaml.safe_load(open("/Users/zhangjing1/Desktop/practice/data/add.yaml")))
-    def test_add(self, a, b, result):
+    def case_add(self, a, b, result):
         print(a, b, result)
         if isinstance(a, (int, float)) and isinstance(b, (int, float)) and isinstance(result, (int, float)):
             call = self.cal.add(a, b)
@@ -41,6 +42,7 @@ class TestCalc:
             with pytest.raises(TypeError):
                 self.cal.add(a, b)
 
+    @pytest.mark.div
     @pytest.mark.parametrize("a,b,result", yaml.safe_load(open('/Users/zhangjing1/Desktop/practice/data/div.yaml')))
     def test_div(self, a, b, result):
         print(a, b, result)
