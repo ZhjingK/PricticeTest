@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3b1e538a-42a1-4d2d-8613-26ce4c93e617" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../demo/testdemo/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumdemo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumdemo/seleniumdemo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/add.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/add.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/div.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/div.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcase/case.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/case.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcase/case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
-              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+            <state relative-caret-position="517">
+              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -38,10 +40,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcase/pytest.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="133">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -52,7 +63,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/add.yaml">
+        <entry file="file://$PROJECT_DIR$/data/add.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
               <caret line="31" column="11" selection-start-line="28" selection-end-line="31" selection-end-column="11" />
@@ -61,7 +72,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/div.yaml">
+        <entry file="file://$PROJECT_DIR$/data/div.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
               <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
@@ -94,9 +105,10 @@
         <option value="$PROJECT_DIR$/data/div.yaml" />
         <option value="$PROJECT_DIR$/testcase/1.py" />
         <option value="$PROJECT_DIR$/pytest.ini" />
-        <option value="$PROJECT_DIR$/testcase/case.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/testcase/pytest.ini" />
+        <option value="$PROJECT_DIR$/testcase/case.py" />
+        <option value="$PROJECT_DIR$/python/seleniumdemo.py" />
       </list>
     </option>
   </component>
@@ -130,7 +142,7 @@
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumdemo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -148,6 +160,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/seleniumdemo" />
       <recent name="$PROJECT_DIR$/testcase" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
@@ -199,7 +212,7 @@
       <updated>1589029968853</updated>
       <workItem from="1589029973775" duration="11755000" />
       <workItem from="1589207460196" duration="7000" />
-      <workItem from="1589207528276" duration="1856000" />
+      <workItem from="1589207528276" duration="3094000" />
     </task>
     <servers />
   </component>
@@ -236,7 +249,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13618000" />
+    <option name="totallyTimeSpent" value="14856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -247,7 +260,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4698795" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4698795" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -294,27 +307,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/div.yaml">
+    <entry file="file://$PROJECT_DIR$/data/div.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/add.yaml">
+    <entry file="file://$PROJECT_DIR$/data/add.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="31" column="11" selection-start-line="28" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -323,8 +326,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/pytest.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="133">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
