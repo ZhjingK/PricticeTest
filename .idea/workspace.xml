@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b1e538a-42a1-4d2d-8613-26ce4c93e617" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../demo/testdemo/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumdemo/seleniumdemo4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumdemo/seleniumdemo5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumdemo/seleniumdebugging.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="263">
               <caret line="40" column="54" lean-forward="true" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
               <folding>
                 <element signature="e#16#38#0" expanded="true" />
@@ -75,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
+            <state relative-caret-position="534">
               <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
               <folding>
                 <element signature="e#16#38#0" expanded="true" />
@@ -84,11 +83,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
+            <state relative-caret-position="320">
               <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdebugging.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -148,6 +159,7 @@
         <option value="$PROJECT_DIR$/seleniumdemo/seleniumdemo4.py" />
         <option value="$PROJECT_DIR$/seleniumdemo/seleniumdemo5.py" />
         <option value="$PROJECT_DIR$/seleniumdemo/PO.py" />
+        <option value="$PROJECT_DIR$/seleniumdemo/seleniumdebugging.py" />
       </list>
     </option>
   </component>
@@ -177,6 +189,11 @@
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumdemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
@@ -218,8 +235,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for seleniumdemo5.TestInput.test_alert">
-    <configuration name="pytest for seleniumdemo4.TestJs.test_js" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for seleniumdebugging.TestDemo">
+    <configuration name="pytest for seleniumdebugging.TestDebgging" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -231,11 +248,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;seleniumdemo4.TestJs.test_js&quot;" />
+      <option name="_new_target" value="&quot;seleniumdebugging.TestDebgging&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for seleniumdemo4.TestJs.test_time" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for seleniumdebugging.TestDebgging.test_debugging" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -247,7 +264,23 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;seleniumdemo4.TestJs.test_time&quot;" />
+      <option name="_new_target" value="&quot;seleniumdebugging.TestDebgging.test_debugging&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for seleniumdebugging.TestDemo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seleniumdemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;seleniumdebugging.TestDemo&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -283,29 +316,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for seleniumdemo5.TestInput.test_file_input" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seleniumdemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;seleniumdemo5.TestInput.test_file_input&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for seleniumdebugging.TestDemo" />
+        <item itemvalue="Python tests.pytest for seleniumdebugging.TestDebgging.test_debugging" />
+        <item itemvalue="Python tests.pytest for seleniumdebugging.TestDebgging" />
         <item itemvalue="Python tests.pytest for seleniumdemo5.TestInput.test_alert" />
         <item itemvalue="Python tests.pytest for seleniumdemo5.TestInput" />
-        <item itemvalue="Python tests.pytest for seleniumdemo5.TestInput.test_file_input" />
-        <item itemvalue="Python tests.pytest for seleniumdemo4.TestJs.test_time" />
-        <item itemvalue="Python tests.pytest for seleniumdemo4.TestJs.test_js" />
       </list>
     </recent_temporary>
   </component>
@@ -322,54 +339,55 @@
       <workItem from="1589029973775" duration="11755000" />
       <workItem from="1589207460196" duration="7000" />
       <workItem from="1589207528276" duration="3094000" />
-      <workItem from="1589522499626" duration="22037000" />
+      <workItem from="1589522499626" duration="24117000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_seleniumdemo4_TestJs_test_js - 2020.05.20 at 15h 03m 10s.xml">
-      <configuration name="pytest for seleniumdemo4.TestJs.test_js" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdebugging_TestDebgging_test_debugging - 2020.05.20 at 20h 52m 15s.xml">
+      <configuration name="pytest for seleniumdebugging.TestDebgging.test_debugging" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdemo4_TestJs_test_js - 2020.05.20 at 15h 07m 05s.xml">
-      <configuration name="pytest for seleniumdemo4.TestJs.test_js" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdebugging_TestDebgging - 2020.05.20 at 20h 52m 42s.xml">
+      <configuration name="pytest for seleniumdebugging.TestDebgging" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdemo4_TestJs_test_js - 2020.05.20 at 17h 25m 57s.xml">
-      <configuration name="pytest for seleniumdemo4.TestJs.test_js" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdebugging_TestDebgging - 2020.05.20 at 20h 53m 45s.xml">
+      <configuration name="pytest for seleniumdebugging.TestDebgging" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdemo4_TestJs_test_js - 2020.05.20 at 17h 30m 27s.xml">
-      <configuration name="pytest for seleniumdemo4.TestJs.test_js" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdebugging_TestDebgging_test_debugging - 2020.05.20 at 20h 55m 26s.xml">
+      <configuration name="pytest for seleniumdebugging.TestDebgging.test_debugging" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdemo4_TestJs_test_js - 2020.05.20 at 17h 30m 47s.xml">
-      <configuration name="pytest for seleniumdemo4.TestJs.test_js" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdebugging_TestDebgging_test_debugging - 2020.05.20 at 21h 03m 31s.xml">
+      <configuration name="pytest for seleniumdebugging.TestDebgging.test_debugging" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdemo4_TestJs_test_time - 2020.05.20 at 17h 56m 01s.xml">
-      <configuration name="pytest for seleniumdemo4.TestJs.test_time" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdebugging_TestDebgging - 2020.05.20 at 21h 09m 34s.xml">
+      <configuration name="pytest for seleniumdebugging.TestDebgging" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdemo4_TestJs_test_time - 2020.05.20 at 17h 56m 23s.xml">
-      <configuration name="pytest for seleniumdemo4.TestJs.test_time" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdebugging_TestDebgging - 2020.05.20 at 21h 10m 35s.xml">
+      <configuration name="pytest for seleniumdebugging.TestDebgging" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdemo5_TestInput_test_file_input - 2020.05.20 at 18h 19m 39s.xml">
-      <configuration name="pytest for seleniumdemo5.TestInput.test_file_input" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdebugging_TestDebgging - 2020.05.20 at 21h 10m 51s.xml">
+      <configuration name="pytest for seleniumdebugging.TestDebgging" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdemo5_TestInput - 2020.05.20 at 18h 20m 47s.xml">
-      <configuration name="pytest for seleniumdemo5.TestInput" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdebugging_TestDebgging - 2020.05.20 at 21h 12m 02s.xml">
+      <configuration name="pytest for seleniumdebugging.TestDebgging" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdemo5_TestInput_test_alert - 2020.05.20 at 18h 37m 28s.xml">
-      <configuration name="pytest for seleniumdemo5.TestInput.test_alert" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdebugging_TestDebgging_test_debugging - 2020.05.20 at 21h 15m 05s.xml">
+      <configuration name="pytest for seleniumdebugging.TestDebgging.test_debugging" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36893000" />
+    <option name="totallyTimeSpent" value="38973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3939759" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3939759" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -392,27 +410,30 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/practice$pytest_for_case_TestCalc_test_add.coverage" NAME="pytest for case.TestCalc.test_add Coverage Results" MODIFIED="1589180976231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo5_TestInput.coverage" NAME="pytest for seleniumdemo5.TestInput Coverage Results" MODIFIED="1589970038572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
-    <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo1_TestDemo1.coverage" NAME="pytest for seleniumdemo1.TestDemo1 Coverage Results" MODIFIED="1589772963930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo5_TestInput_test_file_input.coverage" NAME="pytest for seleniumdemo5.TestInput.test_file_input Coverage Results" MODIFIED="1589969972626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
-    <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo2_TestActionChains_test_slide.coverage" NAME="pytest for seleniumdemo2.TestActionChains.test_slide Coverage Results" MODIFIED="1589885088876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
-    <SUITE FILE_PATH="coverage/practice$pytest_in_seleniumdemo2_py.coverage" NAME="pytest in seleniumdemo2.py Coverage Results" MODIFIED="1589877989255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
-    <SUITE FILE_PATH="coverage/practice$pytest_in_case_py.coverage" NAME="pytest in case.py Coverage Results" MODIFIED="1589280984924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo2_TestActionChains.coverage" NAME="pytest for seleniumdemo2.TestActionChains Coverage Results" MODIFIED="1589876124715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo3_TestSwitchWindows_test_switch.coverage" NAME="pytest for seleniumdemo3.TestSwitchWindows.test_switch Coverage Results" MODIFIED="1589929970202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo3_TestSwitchWindows_test_frame.coverage" NAME="pytest for seleniumdemo3.TestSwitchWindows.test_frame Coverage Results" MODIFIED="1589932859149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
-    <SUITE FILE_PATH="coverage/practice$pytest_for_case_TestCalc_test_div.coverage" NAME="pytest for case.TestCalc.test_div Coverage Results" MODIFIED="1589195182961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/practice$1.coverage" NAME="1 Coverage Results" MODIFIED="1589195040291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo2_TestActionChains_test_drop.coverage" NAME="pytest for seleniumdemo2.TestActionChains.test_drop Coverage Results" MODIFIED="1589878599025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdebugging_TestDebgging_test_debugging.coverage" NAME="pytest for seleniumdebugging.TestDebgging.test_debugging Coverage Results" MODIFIED="1589980618101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo1_TestDemo1_test_demo.coverage" NAME="pytest for seleniumdemo1.TestDemo1.test_demo Coverage Results" MODIFIED="1589772711176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_temporary_testing.coverage" NAME="pytest for temporary.testing Coverage Results" MODIFIED="1589179419758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/practice$case.coverage" NAME="case Coverage Results" MODIFIED="1589180011038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdebugging_TestDemo.coverage" NAME="pytest for seleniumdebugging.TestDemo Coverage Results" MODIFIED="1589980715906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo2_TestActionChains_test_click.coverage" NAME="pytest for seleniumdemo2.TestActionChains.test_click Coverage Results" MODIFIED="1589876301248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo2_TestActionChains_test_keys.coverage" NAME="pytest for seleniumdemo2.TestActionChains.test_keys Coverage Results" MODIFIED="1589879383105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo4_TestJs_test_js.coverage" NAME="pytest for seleniumdemo4.TestJs.test_js Coverage Results" MODIFIED="1589967042550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo4_TestJs_test_time.coverage" NAME="pytest for seleniumdemo4.TestJs.test_time Coverage Results" MODIFIED="1589968576527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
-    <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo5_TestInput_test_alert.coverage" NAME="pytest for seleniumdemo5.TestInput.test_alert Coverage Results" MODIFIED="1589971039334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo3_TestSwitchWindows.coverage" NAME="pytest for seleniumdemo3.TestSwitchWindows Coverage Results" MODIFIED="1589930832733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo5_TestInput.coverage" NAME="pytest for seleniumdemo5.TestInput Coverage Results" MODIFIED="1589970038572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo1_TestDemo1.coverage" NAME="pytest for seleniumdemo1.TestDemo1 Coverage Results" MODIFIED="1589772963930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo2_TestActionChains_test_slide.coverage" NAME="pytest for seleniumdemo2.TestActionChains.test_slide Coverage Results" MODIFIED="1589885088876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
+    <SUITE FILE_PATH="coverage/practice$pytest_in_seleniumdemo2_py.coverage" NAME="pytest in seleniumdemo2.py Coverage Results" MODIFIED="1589877989255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
+    <SUITE FILE_PATH="coverage/practice$pytest_in_case_py.coverage" NAME="pytest in case.py Coverage Results" MODIFIED="1589280984924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo2_TestActionChains.coverage" NAME="pytest for seleniumdemo2.TestActionChains Coverage Results" MODIFIED="1589876124715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_case_TestCalc_test_div.coverage" NAME="pytest for case.TestCalc.test_div Coverage Results" MODIFIED="1589195182961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo2_TestActionChains_test_drop.coverage" NAME="pytest for seleniumdemo2.TestActionChains.test_drop Coverage Results" MODIFIED="1589878599025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
+    <SUITE FILE_PATH="coverage/practice$case.coverage" NAME="case Coverage Results" MODIFIED="1589180011038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo5_TestInput_test_alert.coverage" NAME="pytest for seleniumdemo5.TestInput.test_alert Coverage Results" MODIFIED="1589971039334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdebugging_TestDebgging.coverage" NAME="pytest for seleniumdebugging.TestDebgging Coverage Results" MODIFIED="1589980260430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/-860453529/builtins.py">
@@ -517,9 +538,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumdemo/PO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
+        <state relative-caret-position="534">
           <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
           <folding>
             <element signature="e#16#38#0" expanded="true" />
@@ -529,7 +557,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="263">
           <caret line="40" column="54" lean-forward="true" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
           <folding>
             <element signature="e#16#38#0" expanded="true" />
@@ -537,17 +565,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumdemo/PO.py">
+    <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="320">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo5.py">
+    <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdebugging.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state relative-caret-position="266">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
