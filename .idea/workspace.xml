@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3b1e538a-42a1-4d2d-8613-26ce4c93e617" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../demo/testdemo/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumdemo/seleniumdemo2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumdemo/Bbase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumdemo/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumdemo/seleniumdemo3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumdemo/seleniumdemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumdemo/seleniumdemo1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,18 +26,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testcase/case.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="311">
@@ -48,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="358">
@@ -56,6 +45,39 @@
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+              <folding>
+                <element signature="e#16#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/seleniumdemo/Bbase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seleniumdemo/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -123,6 +145,10 @@
         <option value="$PROJECT_DIR$/python/seleniumdemo.py" />
         <option value="$PROJECT_DIR$/seleniumdemo/seleniumdemo1.py" />
         <option value="$PROJECT_DIR$/seleniumdemo/seleniumdemo2.py" />
+        <option value="$PROJECT_DIR$/seleniumdemo/framedemo.py" />
+        <option value="$PROJECT_DIR$/seleniumdemo/base.py" />
+        <option value="$PROJECT_DIR$/seleniumdemo/seleniumdemo3.py" />
+        <option value="$PROJECT_DIR$/seleniumdemo/Bbase.py" />
       </list>
     </option>
   </component>
@@ -192,39 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for seleniumdemo2.TestActionChains.test_slide">
-    <configuration name="pytest for seleniumdemo2.TestActionChains.test_click" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seleniumdemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;seleniumdemo2.TestActionChains.test_click&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for seleniumdemo2.TestActionChains.test_drop" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seleniumdemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;seleniumdemo2.TestActionChains.test_drop&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for seleniumdemo3.TestSwitchWindows.test_frame">
     <configuration name="pytest for seleniumdemo2.TestActionChains.test_keys" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -257,7 +251,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in seleniumdemo2.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for seleniumdemo3.TestSwitchWindows" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,17 +263,49 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/seleniumdemo/seleniumdemo2.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;seleniumdemo3.TestSwitchWindows&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for seleniumdemo3.TestSwitchWindows.test_frame" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seleniumdemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;seleniumdemo3.TestSwitchWindows.test_frame&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for seleniumdemo3.TestSwitchWindows.test_switch" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seleniumdemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;seleniumdemo3.TestSwitchWindows.test_switch&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for seleniumdemo3.TestSwitchWindows.test_frame" />
+        <item itemvalue="Python tests.pytest for seleniumdemo3.TestSwitchWindows" />
+        <item itemvalue="Python tests.pytest for seleniumdemo3.TestSwitchWindows.test_switch" />
         <item itemvalue="Python tests.pytest for seleniumdemo2.TestActionChains.test_slide" />
         <item itemvalue="Python tests.pytest for seleniumdemo2.TestActionChains.test_keys" />
-        <item itemvalue="Python tests.pytest for seleniumdemo2.TestActionChains.test_drop" />
-        <item itemvalue="Python tests.pytest in seleniumdemo2.py" />
-        <item itemvalue="Python tests.pytest for seleniumdemo2.TestActionChains.test_click" />
       </list>
     </recent_temporary>
   </component>
@@ -296,54 +322,55 @@
       <workItem from="1589029973775" duration="11755000" />
       <workItem from="1589207460196" duration="7000" />
       <workItem from="1589207528276" duration="3094000" />
-      <workItem from="1589522499626" duration="11428000" />
+      <workItem from="1589522499626" duration="17289000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_seleniumdemo2_py - 2020.05.19 at 16h 46m 39s.xml">
-      <configuration name="pytest in seleniumdemo2.py" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdemo3_TestSwitchWindows - 2020.05.19 at 20h 53m 10s.xml">
+      <configuration name="pytest for seleniumdemo3.TestSwitchWindows" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdemo2_TestActionChains_test_drop - 2020.05.19 at 16h 53m 51s.xml">
-      <configuration name="pytest for seleniumdemo2.TestActionChains.test_drop" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdemo3_TestSwitchWindows_test_switch - 2020.05.19 at 20h 53m 58s.xml">
+      <configuration name="pytest for seleniumdemo3.TestSwitchWindows.test_switch" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdemo2_TestActionChains_test_drop - 2020.05.19 at 16h 54m 44s.xml">
-      <configuration name="pytest for seleniumdemo2.TestActionChains.test_drop" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdemo3_TestSwitchWindows_test_switch - 2020.05.19 at 21h 04m 00s.xml">
+      <configuration name="pytest for seleniumdemo3.TestSwitchWindows.test_switch" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdemo2_TestActionChains_test_drop - 2020.05.19 at 16h 56m 54s.xml">
-      <configuration name="pytest for seleniumdemo2.TestActionChains.test_drop" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdemo3_TestSwitchWindows_test_switch - 2020.05.19 at 21h 04m 33s.xml">
+      <configuration name="pytest for seleniumdemo3.TestSwitchWindows.test_switch" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdemo2_TestActionChains_test_keys - 2020.05.19 at 17h 09m 53s.xml">
-      <configuration name="pytest for seleniumdemo2.TestActionChains.test_keys" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdemo3_TestSwitchWindows_test_switch - 2020.05.19 at 21h 04m 59s.xml">
+      <configuration name="pytest for seleniumdemo3.TestSwitchWindows.test_switch" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdemo2_TestActionChains_test_slide - 2020.05.19 at 17h 32m 43s.xml">
-      <configuration name="pytest for seleniumdemo2.TestActionChains.test_slide" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdemo3_TestSwitchWindows_test_switch - 2020.05.20 at 07h 12m 58s.xml">
+      <configuration name="pytest for seleniumdemo3.TestSwitchWindows.test_switch" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdemo2_TestActionChains_test_slide - 2020.05.19 at 18h 35m 15s.xml">
-      <configuration name="pytest for seleniumdemo2.TestActionChains.test_slide" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdemo3_TestSwitchWindows - 2020.05.20 at 07h 16m 48s.xml">
+      <configuration name="pytest for seleniumdemo3.TestSwitchWindows" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdemo2_TestActionChains_test_slide - 2020.05.19 at 18h 36m 49s.xml">
-      <configuration name="pytest for seleniumdemo2.TestActionChains.test_slide" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdemo3_TestSwitchWindows - 2020.05.20 at 07h 23m 59s.xml">
+      <configuration name="pytest for seleniumdemo3.TestSwitchWindows" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdemo2_TestActionChains_test_slide - 2020.05.19 at 18h 42m 21s.xml">
-      <configuration name="pytest for seleniumdemo2.TestActionChains.test_slide" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdemo3_TestSwitchWindows - 2020.05.20 at 07h 27m 25s.xml">
+      <configuration name="pytest for seleniumdemo3.TestSwitchWindows" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdemo2_TestActionChains_test_slide - 2020.05.19 at 18h 45m 08s.xml">
-      <configuration name="pytest for seleniumdemo2.TestActionChains.test_slide" configurationId="tests" />
+    <history-entry file="pytest_for_seleniumdemo3_TestSwitchWindows_test_frame - 2020.05.20 at 08h 01m 05s.xml">
+      <configuration name="pytest for seleniumdemo3.TestSwitchWindows.test_frame" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26284000" />
+    <option name="totallyTimeSpent" value="32145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41686746" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3939759" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -353,7 +380,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -371,6 +398,8 @@
     <SUITE FILE_PATH="coverage/practice$pytest_in_seleniumdemo2_py.coverage" NAME="pytest in seleniumdemo2.py Coverage Results" MODIFIED="1589877989255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_in_case_py.coverage" NAME="pytest in case.py Coverage Results" MODIFIED="1589280984924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo2_TestActionChains.coverage" NAME="pytest for seleniumdemo2.TestActionChains Coverage Results" MODIFIED="1589876124715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo3_TestSwitchWindows_test_switch.coverage" NAME="pytest for seleniumdemo3.TestSwitchWindows.test_switch Coverage Results" MODIFIED="1589929970202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo3_TestSwitchWindows_test_frame.coverage" NAME="pytest for seleniumdemo3.TestSwitchWindows.test_frame Coverage Results" MODIFIED="1589932859149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_case_TestCalc_test_div.coverage" NAME="pytest for case.TestCalc.test_div Coverage Results" MODIFIED="1589195182961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/practice$1.coverage" NAME="1 Coverage Results" MODIFIED="1589195040291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo2_TestActionChains_test_drop.coverage" NAME="pytest for seleniumdemo2.TestActionChains.test_drop Coverage Results" MODIFIED="1589878599025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
@@ -379,6 +408,7 @@
     <SUITE FILE_PATH="coverage/practice$case.coverage" NAME="case Coverage Results" MODIFIED="1589180011038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo2_TestActionChains_test_click.coverage" NAME="pytest for seleniumdemo2.TestActionChains.test_click Coverage Results" MODIFIED="1589876301248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo2_TestActionChains_test_keys.coverage" NAME="pytest for seleniumdemo2.TestActionChains.test_keys Coverage Results" MODIFIED="1589879383105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo3_TestSwitchWindows.coverage" NAME="pytest for seleniumdemo3.TestSwitchWindows Coverage Results" MODIFIED="1589930832733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/-860453529/builtins.py">
@@ -456,12 +486,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumdemo/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
           <caret line="108" selection-start-line="108" selection-end-line="108" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#16#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumdemo/Bbase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
