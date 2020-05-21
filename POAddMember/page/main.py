@@ -3,6 +3,8 @@ from time import sleep
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.support.wait import WebDriverWait
 
 from POAddMember.page.BasePage import BasePage
 from POAddMember.page.addmember import AddMember
@@ -34,7 +36,12 @@ class Main(BasePage):
 
     def goto_phone(self):
         self.find(By.ID, "menu_contacts").click()
-        sleep(2)
+        # 隐式等待不能解决此时的sleep(2)，元素在但是不能对其进行点击，这是隐式等待的弊端，隐式等待出来了
+        # sleep(2)
+
+        # 当等待点击元素出错的时候，可以去等待点击之后页面的元素是否出现
+        locator = (By.CSS_SELECTOR, '.js_btn_save')
+        self.wait_for_click(locator)
         self.find(By.CSS_SELECTOR, '.js_has_member>div:nth-child(1)>a:nth-child(2)').click()
 
         return AddMember(self._driver)

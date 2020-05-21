@@ -4,6 +4,10 @@ from selenium.webdriver.remote.webdriver import WebDriver
 
 
 # 子类在执行之前先去实例化父类，调用父类的构造方法
+from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.support.wait import WebDriverWait
+
+
 class BasePage:
     # 类变量(需要在函数之前对其进行赋值)
     _driver = None
@@ -28,3 +32,7 @@ class BasePage:
 
     def finds(self, by, locator):
         return self._driver.find_elements(by, locator)
+
+    def wait_for_click(self, locator, time = 10):
+        WebDriverWait(self._driver, time).until(expected_conditions.element_to_be_clickable(locator))
+

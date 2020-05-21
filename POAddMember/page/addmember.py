@@ -45,17 +45,30 @@ class AddMember(BasePage):
 
         self.find(By.CSS_SELECTOR, '.js_btn_save').click()
 
-    def get_member(self):
+    def update_page(self):
+        # 获取1/10并进行分割
+        content: str = self.find(By.CSS_SELECTOR, '.ww_pageNav_info_text').text
+        return [int(x) for x in content.split('/', 1)]
+
+    def get_member(self, value):
         '''
         验证添加成员是否成功
         :return:
         '''
-        elements = self.finds(By.CSS_SELECTOR, '.member_colRight_memberTable_td:nth-child(2)')
-        # list = []
-        # for element in elements:
-        #     print(element)
-        #     list.append(element.get_attribute("title"))
-        # return list
-        return [element.get_attribute("title") for element in elements]
+
+        self.wait_for_click((By.CSS_SELECTOR, '.ww_checkbox'))
+
+        cur_page, total_page = self.update_page()
+        while True:
+            elements = self.finds(By.CSS_SELECTOR, '.member_colRight_memberTable_td:nth-child(2)')
+            for element in elements:
+                if value == element.get_attribute("title"):
+                    return True
+            cur_page = self.update_page()[0]
+            if cur_page == total_page:
+                return False
+            self.find(By.CSS_SELECTOR, '.js_next_page').click()
+
+        # return [element.get_attribute("title") for element in elements]
 
 
