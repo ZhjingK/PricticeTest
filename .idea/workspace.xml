@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3b1e538a-42a1-4d2d-8613-26ce4c93e617" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../demo/testdemo/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumPO/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumPO/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumPO/register.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumPO/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POwework/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POwework/page/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POwework/page/addmember.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POwework/page/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POwework/testcase/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POwework/testcase/test_case.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +22,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seleniumPO/index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="171">
+              <caret line="9" column="53" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/POwework/page/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -30,31 +44,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/seleniumPO/test.py">
+        <entry file="file://$PROJECT_DIR$/POwework/page/addmember.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seleniumPO/login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seleniumPO/register.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="339">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -63,13 +56,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdebugging.py">
+        <entry file="file://$PROJECT_DIR$/POwework/testcase/test_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="70" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="70" />
+            <state relative-caret-position="304">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+              <folding>
+                <element signature="e#16#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="685">
+              <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+              <folding>
+                <element signature="e#16#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seleniumPO/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -115,8 +153,12 @@
         <option value="$PROJECT_DIR$/seleniumdemo/seleniumdebugging.py" />
         <option value="$PROJECT_DIR$/seleniumPO/login.py" />
         <option value="$PROJECT_DIR$/seleniumPO/index.py" />
-        <option value="$PROJECT_DIR$/seleniumPO/register.py" />
         <option value="$PROJECT_DIR$/seleniumPO/test.py" />
+        <option value="$PROJECT_DIR$/seleniumPO/register.py" />
+        <option value="$PROJECT_DIR$/seleniumdemo/11.py" />
+        <option value="$PROJECT_DIR$/POwework/page/main.py" />
+        <option value="$PROJECT_DIR$/POwework/testcase/test_case.py" />
+        <option value="$PROJECT_DIR$/POwework/page/addmember.py" />
       </list>
     </option>
   </component>
@@ -145,7 +187,29 @@
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="POwework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="POwework" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="POwework" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumdemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
@@ -192,8 +256,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test.TestRegister">
-    <configuration name="pytest for seleniumdebugging.TestDebgging" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_case.TestPO">
+    <configuration name="pytest for 11.Test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,11 +269,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;seleniumdebugging.TestDebgging&quot;" />
+      <option name="_new_target" value="&quot;11.Test&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for seleniumdebugging.TestDebgging.test_debugging" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for 11.Test.test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,23 +285,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;seleniumdebugging.TestDebgging.test_debugging&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for seleniumdebugging.TestDemo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seleniumdemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;seleniumdebugging.TestDemo&quot;" />
+      <option name="_new_target" value="&quot;11.Test.test&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -257,29 +305,45 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test.TestRegister.test_register" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_case.TestPO" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seleniumPO" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POwework/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestRegister.test_register&quot;" />
+      <option name="_new_target" value="&quot;test_case.TestPO&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_case.TestPO.test_add_member" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POwework/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_case.TestPO.test_add_member&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_case.TestPO" />
+        <item itemvalue="Python tests.pytest for 11.Test.test" />
+        <item itemvalue="Python tests.pytest for 11.Test" />
+        <item itemvalue="Python tests.pytest for test_case.TestPO.test_add_member" />
         <item itemvalue="Python tests.pytest for test.TestRegister" />
-        <item itemvalue="Python tests.pytest for test.TestRegister.test_register" />
-        <item itemvalue="Python tests.pytest for seleniumdebugging.TestDemo" />
-        <item itemvalue="Python tests.pytest for seleniumdebugging.TestDebgging.test_debugging" />
-        <item itemvalue="Python tests.pytest for seleniumdebugging.TestDebgging" />
       </list>
     </recent_temporary>
   </component>
@@ -296,44 +360,44 @@
       <workItem from="1589029973775" duration="11755000" />
       <workItem from="1589207460196" duration="7000" />
       <workItem from="1589207528276" duration="3094000" />
-      <workItem from="1589522499626" duration="26413000" />
+      <workItem from="1589522499626" duration="34537000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_seleniumdebugging_TestDebgging - 2020.05.20 at 21h 10m 51s.xml">
-      <configuration name="pytest for seleniumdebugging.TestDebgging" configurationId="tests" />
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 23m 54s.xml">
+      <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdebugging_TestDebgging - 2020.05.20 at 21h 12m 02s.xml">
-      <configuration name="pytest for seleniumdebugging.TestDebgging" configurationId="tests" />
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 24m 50s.xml">
+      <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdebugging_TestDebgging_test_debugging - 2020.05.20 at 21h 15m 05s.xml">
-      <configuration name="pytest for seleniumdebugging.TestDebgging.test_debugging" configurationId="tests" />
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 25m 48s.xml">
+      <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdebugging_TestDebgging_test_debugging - 2020.05.20 at 21h 17m 01s.xml">
-      <configuration name="pytest for seleniumdebugging.TestDebgging.test_debugging" configurationId="tests" />
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 29m 03s.xml">
+      <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_seleniumdebugging_TestDemo - 2020.05.20 at 21h 18m 40s.xml">
-      <configuration name="pytest for seleniumdebugging.TestDemo" configurationId="tests" />
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 29m 38s.xml">
+      <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_TestRegister_test_register - 2020.05.20 at 21h 45m 54s.xml">
-      <configuration name="pytest for test.TestRegister.test_register" configurationId="tests" />
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 32m 36s.xml">
+      <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_TestRegister - 2020.05.20 at 21h 48m 42s.xml">
-      <configuration name="pytest for test.TestRegister" configurationId="tests" />
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 33m 43s.xml">
+      <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_TestRegister - 2020.05.20 at 21h 50m 43s.xml">
-      <configuration name="pytest for test.TestRegister" configurationId="tests" />
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 34m 05s.xml">
+      <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_TestRegister - 2020.05.20 at 21h 55m 24s.xml">
-      <configuration name="pytest for test.TestRegister" configurationId="tests" />
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 36m 40s.xml">
+      <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_TestRegister_test_register - 2020.05.20 at 21h 55m 43s.xml">
-      <configuration name="pytest for test.TestRegister.test_register" configurationId="tests" />
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 37m 01s.xml">
+      <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41269000" />
+    <option name="totallyTimeSpent" value="49393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -345,7 +409,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3939759" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -353,7 +417,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -367,6 +431,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/practice$pytest_for_case_TestCalc_test_add.coverage" NAME="pytest for case.TestCalc.test_add Coverage Results" MODIFIED="1589180976231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_11_Test_test.coverage" NAME="pytest for 11.Test.test Coverage Results" MODIFIED="1590041062479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo5_TestInput_test_file_input.coverage" NAME="pytest for seleniumdemo5.TestInput.test_file_input Coverage Results" MODIFIED="1589969972626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo3_TestSwitchWindows_test_switch.coverage" NAME="pytest for seleniumdemo3.TestSwitchWindows.test_switch Coverage Results" MODIFIED="1589929970202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo3_TestSwitchWindows_test_frame.coverage" NAME="pytest for seleniumdemo3.TestSwitchWindows.test_frame Coverage Results" MODIFIED="1589932859149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
@@ -386,10 +451,13 @@
     <SUITE FILE_PATH="coverage/practice$pytest_in_seleniumdemo2_py.coverage" NAME="pytest in seleniumdemo2.py Coverage Results" MODIFIED="1589877989255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_in_case_py.coverage" NAME="pytest in case.py Coverage Results" MODIFIED="1589280984924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo2_TestActionChains.coverage" NAME="pytest for seleniumdemo2.TestActionChains Coverage Results" MODIFIED="1589876124715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_test_case_TestPO_test_add_member.coverage" NAME="pytest for test_case.TestPO.test_add_member Coverage Results" MODIFIED="1590033610836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POwework/testcase" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_case_TestCalc_test_div.coverage" NAME="pytest for case.TestCalc.test_div Coverage Results" MODIFIED="1589195182961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo2_TestActionChains_test_drop.coverage" NAME="pytest for seleniumdemo2.TestActionChains.test_drop Coverage Results" MODIFIED="1589878599025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_11_Test.coverage" NAME="pytest for 11.Test Coverage Results" MODIFIED="1590040886879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$case.coverage" NAME="case Coverage Results" MODIFIED="1589180011038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_test_TestRegister.coverage" NAME="pytest for test.TestRegister Coverage Results" MODIFIED="1589983027143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumPO" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_test_case_TestPO.coverage" NAME="pytest for test_case.TestPO Coverage Results" MODIFIED="1590046779563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POwework/testcase" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_test_TestRegister_test_register.coverage" NAME="pytest for test.TestRegister.test_register Coverage Results" MODIFIED="1589982932943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumPO" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo5_TestInput_test_alert.coverage" NAME="pytest for seleniumdemo5.TestInput.test_alert Coverage Results" MODIFIED="1589971039334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdebugging_TestDebgging.coverage" NAME="pytest for seleniumdebugging.TestDebgging Coverage Results" MODIFIED="1589980260430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
@@ -460,30 +528,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seleniumdemo/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -504,36 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-          <folding>
-            <element signature="e#16#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
-          <folding>
-            <element signature="e#16#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdebugging.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -544,40 +562,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumPO/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumPO/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seleniumPO/register.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="247">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumPO/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/seleniumPO/test.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumPO/index.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumdemo/11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding>
+            <element signature="e#16#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="52" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="12" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+          <folding>
+            <element signature="e#16#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumdemo/seleniumdemo5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POwework/page/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POwework/testcase/test_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POwework/page/addmember.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

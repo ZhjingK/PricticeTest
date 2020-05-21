@@ -1,7 +1,7 @@
 from selenium import webdriver
 
-from seleniumPO.login import Login
-from seleniumPO.register import Register
+from seleniumLoginPO.login import Login
+from seleniumLoginPO.register import Register
 
 
 class Index():

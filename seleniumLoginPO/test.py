@@ -1,4 +1,4 @@
-from seleniumPO.index import Index
+from seleniumLoginPO.index import Index
 
 
 class TestRegister():

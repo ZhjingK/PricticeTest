@@ -1,6 +1,6 @@
 from selenium.webdriver.remote.webdriver import WebDriver
 
-from seleniumPO.register import Register
+from seleniumLoginPO.register import Register
 
 
 class Login():
