@@ -3,13 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="3b1e538a-42a1-4d2d-8613-26ce4c93e617" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../demo/testdemo/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POwework/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POwework/page/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POwework/page/addmember.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POwework/page/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POwework/testcase/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POwework/testcase/test_case.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POAddMember/testcase/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POwework/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/POAddMember/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POwework/page/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/POAddMember/page/BasePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POwework/page/addmember.py" beforeDir="false" afterPath="$PROJECT_DIR$/POAddMember/page/addmember.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POwework/page/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/POAddMember/page/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POwework/testcase/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/POAddMember/page/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POwework/testcase/test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/POAddMember/testcase/test_case.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,10 +21,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seleniumPO/index.py">
+        <entry file="file://$PROJECT_DIR$/python/calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="53" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="53" />
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seleniumLoginPO/index.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -32,37 +42,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/POwework/page/main.py">
+        <entry file="file://$PROJECT_DIR$/POAddMember/page/BasePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+            <state relative-caret-position="399">
+              <caret line="29" column="54" lean-forward="true" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/POAddMember/page/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/POAddMember/page/addmember.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/POwework/page/addmember.py">
+        <entry file="file://$PROJECT_DIR$/POAddMember/testcase/test_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/POwework/testcase/test_case.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -104,7 +123,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seleniumPO/test.py">
+        <entry file="file://$PROJECT_DIR$/seleniumLoginPO/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
               <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
@@ -159,6 +178,11 @@
         <option value="$PROJECT_DIR$/POwework/page/main.py" />
         <option value="$PROJECT_DIR$/POwework/testcase/test_case.py" />
         <option value="$PROJECT_DIR$/POwework/page/addmember.py" />
+        <option value="$PROJECT_DIR$/POAddMember/page/phone.py" />
+        <option value="$PROJECT_DIR$/POAddMember/testcase/test_case.py" />
+        <option value="$PROJECT_DIR$/POAddMember/page/main.py" />
+        <option value="$PROJECT_DIR$/POAddMember/page/BasePage.py" />
+        <option value="$PROJECT_DIR$/POAddMember/page/addmember.py" />
       </list>
     </option>
   </component>
@@ -187,39 +211,13 @@
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="POwework" type="462c0819:PsiDirectoryNode" />
+              <item name="POAddMember" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="POwework" type="462c0819:PsiDirectoryNode" />
+              <item name="POAddMember" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="POwework" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="seleniumdemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="seleniumPO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -289,19 +287,35 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test.TestRegister" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for POAddMember.testcase.test_case.TestPO" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seleniumPO" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POAddMember/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestRegister&quot;" />
+      <option name="_new_target" value="&quot;POAddMember.testcase.test_case.TestPO&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for POAddMember.testcase.test_case.TestPO.test_add_member" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POAddMember/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;POAddMember.testcase.test_case.TestPO.test_add_member&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -310,7 +324,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POwework/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POAddMember/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -326,7 +340,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POwework/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POAddMember/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -340,10 +354,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_case.TestPO" />
+        <item itemvalue="Python tests.pytest for test_case.TestPO.test_add_member" />
+        <item itemvalue="Python tests.pytest for POAddMember.testcase.test_case.TestPO" />
         <item itemvalue="Python tests.pytest for 11.Test.test" />
         <item itemvalue="Python tests.pytest for 11.Test" />
-        <item itemvalue="Python tests.pytest for test_case.TestPO.test_add_member" />
-        <item itemvalue="Python tests.pytest for test.TestRegister" />
       </list>
     </recent_temporary>
   </component>
@@ -360,44 +374,44 @@
       <workItem from="1589029973775" duration="11755000" />
       <workItem from="1589207460196" duration="7000" />
       <workItem from="1589207528276" duration="3094000" />
-      <workItem from="1589522499626" duration="34537000" />
+      <workItem from="1589522499626" duration="38166000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 23m 54s.xml">
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 16h 14m 38s.xml">
       <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 24m 50s.xml">
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 16h 15m 25s.xml">
       <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 25m 48s.xml">
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 16h 16m 31s.xml">
       <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 29m 03s.xml">
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 16h 17m 50s.xml">
       <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 29m 38s.xml">
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 16h 28m 48s.xml">
       <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 32m 36s.xml">
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 16h 32m 30s.xml">
       <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 33m 43s.xml">
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 16h 32m 53s.xml">
       <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 34m 05s.xml">
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 16h 34m 35s.xml">
       <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 36m 40s.xml">
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 16h 35m 18s.xml">
       <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 15h 37m 01s.xml">
+    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 16h 46m 45s.xml">
       <configuration name="pytest for test_case.TestPO" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49393000" />
+    <option name="totallyTimeSpent" value="53022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -408,7 +422,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3939759" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3939759" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -417,7 +431,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32891566" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -451,13 +465,13 @@
     <SUITE FILE_PATH="coverage/practice$pytest_in_seleniumdemo2_py.coverage" NAME="pytest in seleniumdemo2.py Coverage Results" MODIFIED="1589877989255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_in_case_py.coverage" NAME="pytest in case.py Coverage Results" MODIFIED="1589280984924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo2_TestActionChains.coverage" NAME="pytest for seleniumdemo2.TestActionChains Coverage Results" MODIFIED="1589876124715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
-    <SUITE FILE_PATH="coverage/practice$pytest_for_test_case_TestPO_test_add_member.coverage" NAME="pytest for test_case.TestPO.test_add_member Coverage Results" MODIFIED="1590033610836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POwework/testcase" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_test_case_TestPO_test_add_member.coverage" NAME="pytest for test_case.TestPO.test_add_member Coverage Results" MODIFIED="1590048752490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POAddMember/testcase" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_case_TestCalc_test_div.coverage" NAME="pytest for case.TestCalc.test_div Coverage Results" MODIFIED="1589195182961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo2_TestActionChains_test_drop.coverage" NAME="pytest for seleniumdemo2.TestActionChains.test_drop Coverage Results" MODIFIED="1589878599025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_11_Test.coverage" NAME="pytest for 11.Test Coverage Results" MODIFIED="1590040886879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$case.coverage" NAME="case Coverage Results" MODIFIED="1589180011038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_test_TestRegister.coverage" NAME="pytest for test.TestRegister Coverage Results" MODIFIED="1589983027143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumPO" />
-    <SUITE FILE_PATH="coverage/practice$pytest_for_test_case_TestPO.coverage" NAME="pytest for test_case.TestPO Coverage Results" MODIFIED="1590046779563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POwework/testcase" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_test_case_TestPO.coverage" NAME="pytest for test_case.TestPO Coverage Results" MODIFIED="1590050787819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POAddMember/testcase" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_test_TestRegister_test_register.coverage" NAME="pytest for test.TestRegister.test_register Coverage Results" MODIFIED="1589982932943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumPO" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo5_TestInput_test_alert.coverage" NAME="pytest for seleniumdemo5.TestInput.test_alert Coverage Results" MODIFIED="1589971039334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdebugging_TestDebgging.coverage" NAME="pytest for seleniumdebugging.TestDebgging Coverage Results" MODIFIED="1589980260430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
@@ -501,13 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/calculator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -562,7 +569,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumPO/register.py">
+    <entry file="file://$PROJECT_DIR$/seleniumLoginPO/register.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
@@ -572,7 +579,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumPO/login.py">
+    <entry file="file://$PROJECT_DIR$/seleniumLoginPO/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="14" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="14" />
@@ -582,20 +589,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumPO/test.py">
+    <entry file="file://$PROJECT_DIR$/seleniumLoginPO/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumPO/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -659,33 +656,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/POwework/page/main.py">
+    <entry file="file://$PROJECT_DIR$/python/calculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POAddMember/page/phone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumLoginPO/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/POwework/testcase/test_case.py">
+    <entry file="file://$PROJECT_DIR$/POAddMember/page/BasePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="399">
+          <caret line="29" column="54" lean-forward="true" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POAddMember/page/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/POwework/page/addmember.py">
+    <entry file="file://$PROJECT_DIR$/POAddMember/page/addmember.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        <state relative-caret-position="390">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POAddMember/testcase/test_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
         </state>
       </provider>
     </entry>
