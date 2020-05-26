@@ -41,3 +41,17 @@ class TestXueQiu():
         element = self.driver.find_element(MobileBy.XPATH, f'//*[@text={type}]/../../..//*[@resource-id="com.xueqiu.android:id/followed_btn"]')
 
         assert str in element.get_attribute('text')
+
+    # def test_search(self):
+    #     el1 = self.driver.find_element(MobileBy.ID, "com.xueqiu.android:id/tv_search")
+    #     el1.click()
+    #     el2 = self.driver.find_element(MobileBy.ID, "com.xueqiu.android:id/search_input_text")
+    #     el2.click()
+    #     el2.send_keys("alibaba")
+    #     el3 = self.driver.find_element(MobileBy.XPATH, '//*[@text="BABA"]')
+    #     el3.click()
+    #     el3 = self.driver.find_element(MobileBy.XPATH, '//*[@text="BABA"]/../../..//*[@resource-id="com.xueqiu.android:id/follow_btn"]')
+    #     el3.click()
+    #     element = self.driver.find_element(MobileBy.XPATH, '//*[@text="BABA"]/../../..//*[@resource-id="com.xueqiu.android:id/followed_btn"]')
+    #
+    #     assert "已添加" in element.get_attribute('text')

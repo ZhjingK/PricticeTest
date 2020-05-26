@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b1e538a-42a1-4d2d-8613-26ce4c93e617" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../demo/testdemo/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/appiumdemo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppTest/appiumdemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest/appiumdemo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AppTest/appiumdemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="36" column="76" lean-forward="true" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
+            <state relative-caret-position="114">
+              <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -362,23 +360,11 @@
       <workItem from="1589029973775" duration="11755000" />
       <workItem from="1589207460196" duration="7000" />
       <workItem from="1589207528276" duration="3094000" />
-      <workItem from="1589522499626" duration="45353000" />
+      <workItem from="1589522499626" duration="46588000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 17h 37m 05s.xml">
-      <configuration name="pytest for test_case.TestPO" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_case_TestPO - 2020.05.21 at 17h 38m 29s.xml">
-      <configuration name="pytest for test_case.TestPO" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_appiumdemo_TestXueQiu_test_search - 2020.05.25 at 21h 25m 25s.xml">
-      <configuration name="pytest for appiumdemo.TestXueQiu.test_search" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_appiumdemo_TestXueQiu_test_search - 2020.05.25 at 21h 30m 47s.xml">
-      <configuration name="pytest for appiumdemo.TestXueQiu.test_search" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_appiumdemo_TestXueQiu_test_search - 2020.05.25 at 21h 32m 23s.xml">
       <configuration name="pytest for appiumdemo.TestXueQiu.test_search" configurationId="tests" />
     </history-entry>
@@ -397,9 +383,21 @@
     <history-entry file="pytest_for_appiumdemo_TestXueQiu_test_search - 2020.05.25 at 22h 05m 43s.xml">
       <configuration name="pytest for appiumdemo.TestXueQiu.test_search" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_appiumdemo_TestXueQiu_test_search - 2020.05.26 at 10h 46m 57s.xml">
+      <configuration name="pytest for appiumdemo.TestXueQiu.test_search" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_appiumdemo_TestXueQiu_test_search - 2020.05.26 at 10h 48m 05s.xml">
+      <configuration name="pytest for appiumdemo.TestXueQiu.test_search" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_appiumdemo_TestXueQiu_test_search - 2020.05.26 at 10h 48m 57s.xml">
+      <configuration name="pytest for appiumdemo.TestXueQiu.test_search" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_appiumdemo_TestXueQiu_test_search - 2020.05.26 at 10h 54m 00s.xml">
+      <configuration name="pytest for appiumdemo.TestXueQiu.test_search" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60209000" />
+    <option name="totallyTimeSpent" value="61444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -438,7 +436,7 @@
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo3_TestSwitchWindows_test_switch.coverage" NAME="pytest for seleniumdemo3.TestSwitchWindows.test_switch Coverage Results" MODIFIED="1589929970202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo3_TestSwitchWindows_test_frame.coverage" NAME="pytest for seleniumdemo3.TestSwitchWindows.test_frame Coverage Results" MODIFIED="1589932859149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$1.coverage" NAME="1 Coverage Results" MODIFIED="1589195040291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/practice$pytest_for_appiumdemo_TestXueQiu_test_search.coverage" NAME="pytest for appiumdemo.TestXueQiu.test_search Coverage Results" MODIFIED="1590415492916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_appiumdemo_TestXueQiu_test_search.coverage" NAME="pytest for appiumdemo.TestXueQiu.test_search Coverage Results" MODIFIED="1590461669957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdebugging_TestDebgging_test_debugging.coverage" NAME="pytest for seleniumdebugging.TestDebgging.test_debugging Coverage Results" MODIFIED="1589980618101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo1_TestDemo1_test_demo.coverage" NAME="pytest for seleniumdemo1.TestDemo1.test_demo Coverage Results" MODIFIED="1589772711176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_temporary_testing.coverage" NAME="pytest for temporary.testing Coverage Results" MODIFIED="1589179419758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
@@ -711,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AppTest/appiumdemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="36" column="76" lean-forward="true" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
+        <state relative-caret-position="114">
+          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
