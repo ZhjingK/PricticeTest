@@ -11,18 +11,28 @@ from appium.webdriver.common.mobileby import MobileBy
 
 
 class TestXueQiu():
-    def setup(self):
+    # 类的级别只初始化一次，不需要多次打开APP
+    def setup_class(self):
         caps = {}
         caps["platformName"] = "Android"
         caps["deviceName"] = "emulator-5554"
         caps["appPackage"] = "com.xueqiu.android"
         caps["appActivity"] = ".view.WelcomeActivityAlias"
         caps["noReset"] = "true"
+        caps["skipServerInstallation"] = True
+        caps["skipDeviceInitialization"] = True
         self.driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
         self.driver.implicitly_wait(10)
 
-    def teardown(self):
+    def setup(self):
+        pass
+
+    def teardown_class(self):
         self.driver.quit()
+
+    def teardown(self):
+        # 增加返回的操作，便于下一个用例运行
+        self.driver.find_element(MobileBy.ID, 'com.xueqiu.android:id/action_close').click()
 
     @pytest.mark.parametrize('search,type,str', [
         ('alibaba', 'BABA', '已添加'),
