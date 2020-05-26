@@ -52,6 +52,8 @@ class TestXueQiu():
 
         assert str in element.get_attribute('text')
 
+        # 断言逻辑：去找对应行是否有"已添加"的元素，有的话直接输出"已添加自选"，没有的话点击"加自选"
+
     # def test_search(self):
     #     el1 = self.driver.find_element(MobileBy.ID, "com.xueqiu.android:id/tv_search")
     #     el1.click()
