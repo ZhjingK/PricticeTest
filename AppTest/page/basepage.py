@@ -97,6 +97,6 @@ class BasePage:
                 ele_list = self._driver.find_elements(*ele)
                 if len(ele_list) > 0:
                     ele_list[0].click()
-                    return self.find(locator, value).text
+                    return self.find_and_gettext(locator, value)
 
             raise e
