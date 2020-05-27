@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="3b1e538a-42a1-4d2d-8613-26ce4c93e617" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../demo/testdemo/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/weworkappium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppTest/page/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppTest/page/addresslist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppTest/page/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppTest/page/basepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppTest/page/contact_add.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppTest/page/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppTest/page/member_invite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppTest/testcases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppTest/testcases/test_contact.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,14 +22,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppTest/weworkappium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            <state relative-caret-position="266">
+              <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-end-line="40" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AppTest/page/basepage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppTest/page/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppTest/page/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding>
+                <element signature="e#14#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppTest/page/addresslist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppTest/page/member_invite.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppTest/page/contact_add.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppTest/testcases/test_contact.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -80,6 +169,14 @@
         <option value="$PROJECT_DIR$/POAddMember/page/addmember.py" />
         <option value="$PROJECT_DIR$/AppTest/appiumdemo.py" />
         <option value="$PROJECT_DIR$/AppTest/weworkappium.py" />
+        <option value="$PROJECT_DIR$/AppTest/page/memberinvite.py" />
+        <option value="$PROJECT_DIR$/AppTest/page/app.py" />
+        <option value="$PROJECT_DIR$/AppTest/testcases/test_contact.py" />
+        <option value="$PROJECT_DIR$/AppTest/page/addresslist.py" />
+        <option value="$PROJECT_DIR$/AppTest/page/main.py" />
+        <option value="$PROJECT_DIR$/AppTest/page/member_invite.py" />
+        <option value="$PROJECT_DIR$/AppTest/page/contact_add.py" />
+        <option value="$PROJECT_DIR$/AppTest/page/basepage.py" />
       </list>
     </option>
   </component>
@@ -104,6 +201,18 @@
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="AppTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="AppTest" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="AppTest" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -140,23 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for weworkappium.TestWework.test_add_member">
-    <configuration name="pytest for POAddMember.testcase.test_case.TestPO" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POAddMember/testcase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;POAddMember.testcase.test_case.TestPO&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_contact.TestContact.test_addcontact">
     <configuration name="pytest for POAddMember.testcase.test_case.TestPO.test_add_member" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,19 +298,35 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_case.TestPO.test_add_member" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_contact.TestContact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POAddMember/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AppTest/testcases" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_case.TestPO.test_add_member&quot;" />
+      <option name="_new_target" value="&quot;test_contact.TestContact&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_contact.TestContact.test_addcontact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AppTest/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_contact.TestContact.test_addcontact&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -239,11 +348,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_contact.TestContact.test_addcontact" />
+        <item itemvalue="Python tests.pytest for test_contact.TestContact" />
         <item itemvalue="Python tests.pytest for weworkappium.TestWework.test_add_member" />
         <item itemvalue="Python tests.pytest for appiumdemo.TestXueQiu.test_search" />
         <item itemvalue="Python tests.pytest for test_case.TestPO" />
-        <item itemvalue="Python tests.pytest for test_case.TestPO.test_add_member" />
-        <item itemvalue="Python tests.pytest for POAddMember.testcase.test_case.TestPO" />
       </list>
     </recent_temporary>
   </component>
@@ -260,26 +369,11 @@
       <workItem from="1589029973775" duration="11755000" />
       <workItem from="1589207460196" duration="7000" />
       <workItem from="1589207528276" duration="3094000" />
-      <workItem from="1589522499626" duration="52272000" />
+      <workItem from="1589522499626" duration="63071000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_appiumdemo_TestXueQiu_test_search - 2020.05.26 at 10h 48m 05s.xml">
-      <configuration name="pytest for appiumdemo.TestXueQiu.test_search" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_appiumdemo_TestXueQiu_test_search - 2020.05.26 at 10h 48m 57s.xml">
-      <configuration name="pytest for appiumdemo.TestXueQiu.test_search" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_appiumdemo_TestXueQiu_test_search - 2020.05.26 at 10h 54m 00s.xml">
-      <configuration name="pytest for appiumdemo.TestXueQiu.test_search" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_appiumdemo_TestXueQiu_test_search - 2020.05.26 at 10h 55m 23s.xml">
-      <configuration name="pytest for appiumdemo.TestXueQiu.test_search" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_appiumdemo_TestXueQiu_test_search - 2020.05.26 at 11h 30m 27s.xml">
-      <configuration name="pytest for appiumdemo.TestXueQiu.test_search" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_weworkappium_TestWework_test_add_member - 2020.05.26 at 16h 44m 42s.xml">
       <configuration name="pytest for weworkappium.TestWework.test_add_member" configurationId="tests" />
     </history-entry>
@@ -295,9 +389,24 @@
     <history-entry file="pytest_for_weworkappium_TestWework_test_add_member - 2020.05.26 at 17h 15m 35s.xml">
       <configuration name="pytest for weworkappium.TestWework.test_add_member" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_contact_TestContact_test_addcontact - 2020.05.26 at 20h 09m 58s.xml">
+      <configuration name="pytest for test_contact.TestContact.test_addcontact" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_contact_TestContact_test_addcontact - 2020.05.27 at 10h 59m 15s.xml">
+      <configuration name="pytest for test_contact.TestContact.test_addcontact" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_contact_TestContact - 2020.05.27 at 11h 13m 44s.xml">
+      <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_contact_TestContact_test_addcontact - 2020.05.27 at 11h 37m 07s.xml">
+      <configuration name="pytest for test_contact.TestContact.test_addcontact" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_contact_TestContact_test_addcontact - 2020.05.27 at 14h 58m 55s.xml">
+      <configuration name="pytest for test_contact.TestContact.test_addcontact" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67128000" />
+    <option name="totallyTimeSpent" value="77927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -339,6 +448,7 @@
     <SUITE FILE_PATH="coverage/practice$pytest_for_appiumdemo_TestXueQiu_test_search.coverage" NAME="pytest for appiumdemo.TestXueQiu.test_search Coverage Results" MODIFIED="1590463781673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdebugging_TestDebgging_test_debugging.coverage" NAME="pytest for seleniumdebugging.TestDebgging.test_debugging Coverage Results" MODIFIED="1589980618101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo1_TestDemo1_test_demo.coverage" NAME="pytest for seleniumdemo1.TestDemo1.test_demo Coverage Results" MODIFIED="1589772711176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_test_contact_TestContact_test_addcontact.coverage" NAME="pytest for test_contact.TestContact.test_addcontact Coverage Results" MODIFIED="1590562628855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest/testcases" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_temporary_testing.coverage" NAME="pytest for temporary.testing Coverage Results" MODIFIED="1589179419758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdebugging_TestDemo.coverage" NAME="pytest for seleniumdebugging.TestDemo Coverage Results" MODIFIED="1589980715906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo2_TestActionChains_test_click.coverage" NAME="pytest for seleniumdemo2.TestActionChains.test_click Coverage Results" MODIFIED="1589876301248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
@@ -361,6 +471,7 @@
     <SUITE FILE_PATH="coverage/practice$pytest_for_test_TestRegister.coverage" NAME="pytest for test.TestRegister Coverage Results" MODIFIED="1589983027143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumPO" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_test_case_TestPO.coverage" NAME="pytest for test_case.TestPO Coverage Results" MODIFIED="1590053896466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POAddMember/testcase" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_test_TestRegister_test_register.coverage" NAME="pytest for test.TestRegister.test_register Coverage Results" MODIFIED="1589982932943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumPO" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_test_contact_TestContact.coverage" NAME="pytest for test_contact.TestContact Coverage Results" MODIFIED="1590549188748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest/testcases" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo5_TestInput_test_alert.coverage" NAME="pytest for seleniumdemo5.TestInput.test_alert Coverage Results" MODIFIED="1589971039334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdebugging_TestDebgging.coverage" NAME="pytest for seleniumdebugging.TestDebgging Coverage Results" MODIFIED="1589980260430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
   </component>
@@ -626,10 +737,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AppTest/weworkappium.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        <state relative-caret-position="266">
+          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-end-line="40" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/page/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/page/addresslist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/page/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#14#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/page/member_invite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/page/contact_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/testcases/test_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/page/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
