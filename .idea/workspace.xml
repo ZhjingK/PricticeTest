@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b1e538a-42a1-4d2d-8613-26ce4c93e617" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../demo/testdemo/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/page/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/page/addresslist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/page/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/page/basepage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/page/contact_add.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/page/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/page/member_invite.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/testcases/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/testcases/test_contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppTest/page/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest/page/basepage.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AppTest/page/basepage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="362">
+              <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -249,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_contact.TestContact.test_addcontact">
+  <component name="RunManager" selected="Python tests.pytest for test_contact.TestContact">
     <configuration name="pytest for POAddMember.testcase.test_case.TestPO.test_add_member" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -348,8 +339,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_contact.TestContact.test_addcontact" />
         <item itemvalue="Python tests.pytest for test_contact.TestContact" />
+        <item itemvalue="Python tests.pytest for test_contact.TestContact.test_addcontact" />
         <item itemvalue="Python tests.pytest for weworkappium.TestWework.test_add_member" />
         <item itemvalue="Python tests.pytest for appiumdemo.TestXueQiu.test_search" />
         <item itemvalue="Python tests.pytest for test_case.TestPO" />
@@ -369,23 +360,11 @@
       <workItem from="1589029973775" duration="11755000" />
       <workItem from="1589207460196" duration="7000" />
       <workItem from="1589207528276" duration="3094000" />
-      <workItem from="1589522499626" duration="63071000" />
+      <workItem from="1589522499626" duration="63954000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_weworkappium_TestWework_test_add_member - 2020.05.26 at 16h 44m 42s.xml">
-      <configuration name="pytest for weworkappium.TestWework.test_add_member" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_weworkappium_TestWework_test_add_member - 2020.05.26 at 16h 45m 43s.xml">
-      <configuration name="pytest for weworkappium.TestWework.test_add_member" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_weworkappium_TestWework_test_add_member - 2020.05.26 at 16h 54m 26s.xml">
-      <configuration name="pytest for weworkappium.TestWework.test_add_member" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_weworkappium_TestWework_test_add_member - 2020.05.26 at 16h 57m 18s.xml">
-      <configuration name="pytest for weworkappium.TestWework.test_add_member" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_weworkappium_TestWework_test_add_member - 2020.05.26 at 17h 15m 35s.xml">
       <configuration name="pytest for weworkappium.TestWework.test_add_member" configurationId="tests" />
     </history-entry>
@@ -404,9 +383,21 @@
     <history-entry file="pytest_for_test_contact_TestContact_test_addcontact - 2020.05.27 at 14h 58m 55s.xml">
       <configuration name="pytest for test_contact.TestContact.test_addcontact" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_contact_TestContact_test_addcontact - 2020.05.27 at 16h 05m 17s.xml">
+      <configuration name="pytest for test_contact.TestContact.test_addcontact" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_contact_TestContact_test_addcontact - 2020.05.27 at 16h 06m 00s.xml">
+      <configuration name="pytest for test_contact.TestContact.test_addcontact" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_contact_TestContact - 2020.05.27 at 16h 06m 53s.xml">
+      <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_contact_TestContact - 2020.05.27 at 16h 07m 53s.xml">
+      <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77927000" />
+    <option name="totallyTimeSpent" value="78810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -448,7 +439,7 @@
     <SUITE FILE_PATH="coverage/practice$pytest_for_appiumdemo_TestXueQiu_test_search.coverage" NAME="pytest for appiumdemo.TestXueQiu.test_search Coverage Results" MODIFIED="1590463781673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdebugging_TestDebgging_test_debugging.coverage" NAME="pytest for seleniumdebugging.TestDebgging.test_debugging Coverage Results" MODIFIED="1589980618101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo1_TestDemo1_test_demo.coverage" NAME="pytest for seleniumdemo1.TestDemo1.test_demo Coverage Results" MODIFIED="1589772711176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
-    <SUITE FILE_PATH="coverage/practice$pytest_for_test_contact_TestContact_test_addcontact.coverage" NAME="pytest for test_contact.TestContact.test_addcontact Coverage Results" MODIFIED="1590562628855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest/testcases" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_test_contact_TestContact_test_addcontact.coverage" NAME="pytest for test_contact.TestContact.test_addcontact Coverage Results" MODIFIED="1590566746935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest/testcases" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_temporary_testing.coverage" NAME="pytest for temporary.testing Coverage Results" MODIFIED="1589179419758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdebugging_TestDemo.coverage" NAME="pytest for seleniumdebugging.TestDemo Coverage Results" MODIFIED="1589980715906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo2_TestActionChains_test_click.coverage" NAME="pytest for seleniumdemo2.TestActionChains.test_click Coverage Results" MODIFIED="1589876301248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
@@ -471,7 +462,7 @@
     <SUITE FILE_PATH="coverage/practice$pytest_for_test_TestRegister.coverage" NAME="pytest for test.TestRegister Coverage Results" MODIFIED="1589983027143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumPO" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_test_case_TestPO.coverage" NAME="pytest for test_case.TestPO Coverage Results" MODIFIED="1590053896466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POAddMember/testcase" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_test_TestRegister_test_register.coverage" NAME="pytest for test.TestRegister.test_register Coverage Results" MODIFIED="1589982932943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumPO" />
-    <SUITE FILE_PATH="coverage/practice$pytest_for_test_contact_TestContact.coverage" NAME="pytest for test_contact.TestContact Coverage Results" MODIFIED="1590549188748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest/testcases" />
+    <SUITE FILE_PATH="coverage/practice$pytest_for_test_contact_TestContact.coverage" NAME="pytest for test_contact.TestContact Coverage Results" MODIFIED="1590566836668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest/testcases" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdemo5_TestInput_test_alert.coverage" NAME="pytest for seleniumdemo5.TestInput.test_alert Coverage Results" MODIFIED="1589971039334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
     <SUITE FILE_PATH="coverage/practice$pytest_for_seleniumdebugging_TestDebgging.coverage" NAME="pytest for seleniumdebugging.TestDebgging Coverage Results" MODIFIED="1589980260430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumdemo" />
   </component>
@@ -804,8 +795,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AppTest/page/basepage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="362">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

@@ -2,8 +2,11 @@ from appium.webdriver import WebElement
 from appium.webdriver.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 
+import logging
+
 
 class BasePage:
+    logging.basicConfig(level=logging.INFO)
     # 弹框处理的名单
     _black_ist = [
         (By.XPATH, '//*[@text="确认"]'),
@@ -25,6 +28,10 @@ class BasePage:
         :param value:
         :return:
         '''
+
+        logging.info(locator)
+        logging.info(value)
+
         try:
             element: WebElement = self._driver.find_element(*locator) if isinstance(locator, tuple) else self._driver.find_element(locator, value)
 
@@ -55,6 +62,7 @@ class BasePage:
 
             # 处理弹框
             for ele in self._black_ist:
+                logging.info(ele)
                 ele_list = self._driver.find_elements(*ele)
                 if len(ele_list) > 0:
                     ele_list[0].click()
