@@ -10,6 +10,8 @@ from appium.webdriver import WebElement
 from appium.webdriver.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 
+from AppTestHomework.page.wrapper import handler_black
+
 
 class BasePage:
     _black_list = [
@@ -24,29 +26,23 @@ class BasePage:
     def __init__(self, driver: WebDriver = None):
         self._driver = driver
 
+    def finds(self, locator, value: str = None):
+        if isinstance(locator, tuple):
+            elements: list = self._driver.find_elements(*locator)
+        else:
+            elements: list = self._driver.find_elements(locator, value)
+        return elements
+
+    @handler_black
     def find(self, locator, value):
-        try:
-            if isinstance(locator, tuple):
-                element: WebElement = self._driver.find_element(*locator)
-            else:
-                element: WebElement = self._driver.find_element(locator, value)
+        if isinstance(locator, tuple):
+            element: WebElement = self._driver.find_element(*locator)
+        else:
+            element: WebElement = self._driver.find_element(locator, value)
 
-            self._error_num = 0
-            self._driver.implicitly_wait(5)
+        return element
 
-            return element
-        except Exception as e:
-            self._driver.implicitly_wait(1)
-
-            if self._error_num > self._max_num:
-                raise e
-
-            self._error_num += 1
-
-            for black in self._black_list:
-                ele = self._driver.find_elements(*black)
-                if len(ele) > 0:
-                    ele[0].click()
-
-                    return self.find(locator, value)
+    @property
+    def driver(self):
+        return self._driver
 
