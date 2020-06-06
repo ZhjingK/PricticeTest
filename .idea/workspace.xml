@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b1e538a-42a1-4d2d-8613-26ce4c93e617" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/page/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/page/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/page/base_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/page/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/page/main.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/page/market.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/page/search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/page/search.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/page/wrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/testcase/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/testcase/test_case.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_xueqiu/testcase/test_case.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo/testdemo/demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -26,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/base_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="228">
+              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -41,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="209">
+              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -77,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appium_xueqiu/testcase/test_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="96" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="96" />
+            <state relative-caret-position="342">
+              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -160,10 +148,10 @@
         <option value="$PROJECT_DIR$/appium_xueqiu/page/market.py" />
         <option value="$PROJECT_DIR$/appium_xueqiu/page/search.py" />
         <option value="$PROJECT_DIR$/appium_xueqiu/page/wrapper.py" />
-        <option value="$PROJECT_DIR$/appium_xueqiu/page/base_page.py" />
         <option value="$PROJECT_DIR$/appium_xueqiu/page/search.yaml" />
         <option value="$PROJECT_DIR$/appium_xueqiu/testcase/test_case.yaml" />
         <option value="$PROJECT_DIR$/appium_xueqiu/testcase/test_case.py" />
+        <option value="$PROJECT_DIR$/appium_xueqiu/page/base_page.py" />
       </list>
     </option>
   </component>
@@ -337,7 +325,7 @@
       <workItem from="1589207528276" duration="3094000" />
       <workItem from="1589522499626" duration="64573000" />
       <workItem from="1590583963958" duration="15902000" />
-      <workItem from="1591236522761" duration="15335000" />
+      <workItem from="1591236522761" duration="16453000" />
     </task>
     <servers />
   </component>
@@ -374,18 +362,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110666000" />
+    <option name="totallyTimeSpent" value="111784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2074392" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2074392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3939759" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3939759" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -394,7 +381,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -849,17 +836,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/appium_xueqiu/testcase/test_case.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appium_xueqiu/testcase/test_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/search.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -873,36 +870,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/base_page.py">
+    <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/search.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="368">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="209">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/testcase/test_case.yaml">
+    <entry file="file://$PROJECT_DIR$/appium_xueqiu/page/base_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appium_xueqiu/testcase/test_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="96" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="96" />
+        <state relative-caret-position="228">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
