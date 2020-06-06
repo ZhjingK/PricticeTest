@@ -1,9 +1,14 @@
+import logging
 from functools import wraps
 
+import allure
 from selenium.webdriver.common.by import By
 
 
 def handle_black(func):
+
+    logging.basicConfig(level=logging.INFO)
+
     # 为了被封装的函数能保留原来的内置属性
     # @wraps(func)
     def wrapper(*args, **kwargs):
@@ -25,6 +30,8 @@ def handle_black(func):
         instance: BasePage = args[0]
 
         try:
+            logging.info('run ' + func.__name__ + "\n args \n" + repr(args[1:]) + "\n" + repr(kwargs))
+
             element = func(*args, **kwargs)
             _error_num = 0
 
@@ -33,6 +40,12 @@ def handle_black(func):
 
             return element
         except Exception as e:
+            instance.screenshot("photo.png")
+            with open("photo.png", "rb") as f:
+                content = f.read()
+            allure.attach(content, attachment_type=allure.attachment_type.PNG)
+            logging.error("element not found, handle black list")
+
             instance._driver.implicitly_wait(1)
 
             if _error_num > _max_num:

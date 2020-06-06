@@ -15,6 +15,9 @@ class BasePage:
     def __init__(self, driver: WebDriver = None):
         self._driver = driver
 
+    def screenshot(self, name):
+        self._driver.save_screenshot(name)
+
     def finds(self, locator, value: str = None):
         elements:list
         if isinstance(locator, tuple):
